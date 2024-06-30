@@ -1,0 +1,12 @@
+projects:
+  amplifyyjanvier:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - amplify-yjanvier/amplify/backend/api/amplifyyjanvier/schema.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: amplify-yjanvier/amplify/backend/api/amplifyyjanvier
